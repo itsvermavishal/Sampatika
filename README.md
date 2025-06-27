@@ -52,11 +52,10 @@ Clone the Repository
 bash
 Copy
 Edit
-git clone https://github.com/itsvermavishal/WealtHero.git
 git clone https://github.com/itsvermavishal/Sampatika.git
 Open in Android Studio
 
-Open both projects or combine modules if needed
+Open the project
 
 Let Gradle sync and resolve dependencies
 
