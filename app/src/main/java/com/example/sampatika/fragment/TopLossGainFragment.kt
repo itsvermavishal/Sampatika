@@ -7,7 +7,6 @@ import android.view.View
 import android.view.View.GONE
 import android.view.ViewGroup
 import androidx.lifecycle.lifecycleScope
-import com.example.sampatika.R
 import com.example.sampatika.adapter.MarketAdapter
 import com.example.sampatika.apis.ApiInterface
 import com.example.sampatika.apis.ApiUtilities
@@ -57,7 +56,8 @@ class TopLossGainFragment : Fragment() {
 
                         binding.topGainLoseRecyclerView.adapter = MarketAdapter(
                             requireContext(),
-                            list
+                            list,
+                            "home"
                         )
                     } else {
                         list.clear()
@@ -67,7 +67,8 @@ class TopLossGainFragment : Fragment() {
 
                         binding.topGainLoseRecyclerView.adapter = MarketAdapter(
                             requireContext(),
-                            list
+                            list,
+                            "home"
                         )
                     }
 
