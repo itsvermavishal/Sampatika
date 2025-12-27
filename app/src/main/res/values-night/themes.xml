@@ -2,6 +2,22 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.Sampatika" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your dark theme here. -->
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/dark_blue</item>
+        <item name="colorPrimaryVariant">@color/royal_blue_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- 🔥 STATUS BAR (FINAL FIX) -->
+        <item name="android:statusBarColor">@color/royal_blue_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- Font -->
+        <item name="fontFamily">@font/nunito_medium</item>
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
     </style>
 </resources>
