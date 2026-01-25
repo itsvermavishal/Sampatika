@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "com.finance.sampatika"
+    namespace = "com.wealth.sampatika"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.finance.sampatika"
+        applicationId = "com.wealth.sampatika"
         minSdk = 24
         targetSdk = 35
         versionCode = 2
