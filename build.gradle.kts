@@ -3,14 +3,15 @@
 buildscript {
     repositories {
         google()
+        mavenCentral()
     }
     dependencies {
-        val nav_version = "2.9.1"
-        classpath("androidx.navigation:navigation-safe-args-gradle-plugin:$nav_version")
+        classpath("com.google.dagger:hilt-android-gradle-plugin:2.50")
     }
 }
 
 plugins {
     alias(libs.plugins.android.application) apply false
     alias(libs.plugins.kotlin.android) apply false
+    id("org.jetbrains.kotlin.plugin.compose") version "2.0.0" apply false
 }
