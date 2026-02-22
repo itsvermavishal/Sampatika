@@ -92,4 +92,10 @@ dependencies {
 
     // Testing
     testImplementation("junit:junit:4.13.2")
+
+    //Graph
+    implementation("io.github.patrykandpatrick:vico:2.0.0-alpha.18")
+    implementation("com.github.PhilJay:MPAndroidChart:v3.1.0")
+
+
 }
